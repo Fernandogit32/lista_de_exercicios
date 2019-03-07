@@ -21,7 +21,7 @@ int fatorial(int n)
 void retorno(){
 printf("Digite um numero: ");
 scanf("%d", &numero);
-printf("\e[H\e[2J");//comando para limpar tela
+system("cls");
 
 if(numero>1){
      printf("fatorial de %d e %d \n",numero,fatorial(numero));

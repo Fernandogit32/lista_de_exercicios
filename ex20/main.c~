@@ -23,7 +23,7 @@ for(i=0;i<10;i++){
         printf("raiz quadrada de %.2f é %f \n",valores[i],sqrt(valores[i]));
     }
 
-printf("\e[H\e[2J");//comando para limpar tela
+system("cls");
 
 for(i=0;i<10;i++){
     printf("A raiz quadrada de %.2f é %f \n",valores[i],sqrt(valores[i]));
