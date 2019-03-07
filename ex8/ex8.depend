@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1551364317 source:c:\users\aluno\desktop\lista de exercicios\ex8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

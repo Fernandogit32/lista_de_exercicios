@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+float e(int n);
+
+int main()
+{
+    int numero;
+
+
+int fatorial(int n)
+{
+
+    if(n>1){
+            return n * fatorial(n - 1);
+    }
+
+}
+
+void retorno(){
+printf("Digite um numero: ");
+scanf("%d", &numero);
+printf("\e[H\e[2J");//comando para limpar tela
+
+if(numero>1){
+     printf("fatorial de %d e %d \n",numero,fatorial(numero));
+     retorno();
+    }
+
+}
+
+retorno();
+
+
+
+    return 0;
+}
+
+
+
+

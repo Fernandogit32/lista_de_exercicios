@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1551708602 source:/home/fernando/Desktop/ex20/main.c
+	<stdio.h>
+	<stdlib.h>
+
