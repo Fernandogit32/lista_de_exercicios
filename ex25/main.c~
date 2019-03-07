@@ -22,13 +22,13 @@ int main(int argc, char *argv[]) {
 	char origem[50];
 	char destino[50];
 
-	printf("\n Digite uma palavra:");
+	printf("\nDigite uma palavra:");
 	gets(origem);
 
-	printf("\n Digite a palavra que sera substituida: ");
+	printf("\nDigite a palavra que sera substituida: ");
 	gets(destino);
 
-	printf("\n Antes: %s",destino);
+	printf("\n antes: %s",destino);
 	printf("\n depois: %s",strcpy(origem,destino));
 
 
